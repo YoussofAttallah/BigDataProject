@@ -34,10 +34,7 @@ create external table if not exists anime_tweets (
   user_rt string,
   retweet_id string,
   reply_to string,
-  retweet_date string,
-  translate string,
-  trans_src	string,
-  trans_dest string
+  retweet_date string
 )
 row format delimited
 fields terminated by ','
